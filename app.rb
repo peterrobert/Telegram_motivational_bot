@@ -1,4 +1,5 @@
 require_relative './lib/bot.rb'
+require_relative './lib/motivate.rb'
 
 
 puts 'Hello! , Welcome to motivational telegram bot'

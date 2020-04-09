@@ -1,4 +1,5 @@
 require 'telegram/bot'
+
 class Bot
 def initialize
     token = '1167629539:AAGQm4Kj0hUclTkDEKo_ow4X4T3V0N1CljE'
@@ -10,8 +11,9 @@ def initialize
           when '/stop'
             bot.api.send_message(chat_id: message.chat.id, text: "Bye, #{message.from.first_name}")
     
-          when '/fuck'
-            bot.api.send_message(chat_id: message.chat.id, text: "fuck you man, #{message.from.first_name}")
+          when '/motivate'
+            motive = Motivate.new
+            motive.attach_to_telegram
           end
         end
   
