@@ -11,24 +11,24 @@ class Bot < Motivate
             case message.text
             when '/start'
 
-                bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name} , welcome to motivation chat bot created by peter robert. Get motivated anytime.")
+                bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name} , welcome to motivation chat bot created by peter robert. Get motivated anytime.", date:message.date)
 
             when '/stop'
 
-                bot.api.send_message(chat_id: message.chat.id, text: "Bye, #{message.from.first_name}")
+                bot.api.send_message(chat_id: message.chat.id, text: "Bye, #{message.from.first_name}",date: message.date)
         
             when '/motivate'
                 
               values =  Motivate.new
               value = values.select_random
-              bot.api.send_message(chat_id: message.chat.id, text: "#{value["text"]}")
+              bot.api.send_message(chat_id: message.chat.id, text: "#{value["text"]}", date:message.date)
 
             when '/joke'
                 
                 values =  Joke.new
                 value = values.make_the_request
 
-                bot.api.send_message(chat_id: message.chat.id, text: "#{value["joke"]}")
+                bot.api.send_message(chat_id: message.chat.id, text: "#{value["joke"]}", date: message.date)
 
             end
             end
