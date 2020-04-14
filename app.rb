@@ -10,3 +10,4 @@ puts 'This bolt will help you when you feeling down and demotivated'
 sleep(0.6)
 puts '...loading the bot is now online... use ctrl-c to stop the bot'
 Bot.new
+
