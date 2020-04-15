@@ -32,3 +32,18 @@ RSpec.describe Motivate do
     end
   end
 end
+
+RSpec.describe Joke do
+  describe '#make_the_request' do
+    it 'should return json response when the request is sucessful' do
+      request = Motivate.new
+      request_json = request.make_the_request
+      expect(request_json.class).to eql(Array)
+    end
+    it 'returns an array response should not be empty' do
+      request = Motivate.new
+      request_json = request.make_the_request
+      expect(request_json.length).not_to eql(0)
+    end
+  end
+end
