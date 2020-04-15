@@ -33,7 +33,7 @@
    ``` 
 - Then press the /START button and follow the steps given
 
-![](img/ezgif.com-crop.gif)
+     ![](img/ezgif.com-crop.gif)
 
 ## How to Test the Methods In the Classes
 
