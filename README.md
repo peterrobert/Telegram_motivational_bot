@@ -23,8 +23,9 @@
 - For Linux and Mac users, open a Terminal and run:
     ```console
     $ cd TElEGRAM_MOTIVATIONAL_BOLT folder
-    $ run ruby app.rb
+    $ run ruby bin/main.rb
     ``` 
+- Navigate to your telegram account
 
 - On your telegram account search for :
   ```
