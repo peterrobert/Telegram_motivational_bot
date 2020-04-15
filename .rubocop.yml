@@ -31,10 +31,10 @@ Style/DefWithParentheses:
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
 
-Layout/HashAlignment:
+Layout/HashAlignment: false
   EnforcedColonStyle: key
-Layout/ExtraSpacing:
+Layout/ExtraSpacing: false
   AllowForAlignment: false
-Layout/MultilineMethodCallIndentation:
+Layout/MultilineMethodCallIndentation: false
   Enabled: true
   EnforcedStyle: indented
