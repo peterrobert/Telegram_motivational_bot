@@ -1,5 +1,4 @@
 # rubocop:disable Lint/UriEscapeUnescape
-# rubocop:disable Style/ClassVars
 require 'telegram/bot'
 require 'net/http'
 require 'json'
@@ -24,4 +23,3 @@ class Joke
 end
 
 # rubocop: enable Lint/UriEscapeUnescape
-# rubocop: enable Style/ClassVars
