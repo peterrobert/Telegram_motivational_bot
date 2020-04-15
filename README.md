@@ -18,7 +18,7 @@
 - For Windows users, open Command Prompt and run:
     ```console
     C:\>cd TElEGRAM_MOTIVATIONAL_BOLT folder
-    C:\TElEGRAM_MOTIVATIONAL_BOLT folder> run ruby app.rb
+    C:\TElEGRAM_MOTIVATIONAL_BOLT folder> run ruby bin/main.rb
     ```
 - For Linux and Mac users, open a Terminal and run:
     ```console
