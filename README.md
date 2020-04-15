@@ -31,4 +31,4 @@
    @mawaitha_bot
 
    ``` 
-![Demo]("[url=https://imgflip.com/gif/3wq8hp]")
+![Demo]("https://imgflip.com/gif/3wq8hp")
