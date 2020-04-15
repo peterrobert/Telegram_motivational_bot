@@ -5,7 +5,7 @@ require 'telegram/bot'
 require_relative 'motivate.rb'
 require_relative 'joke.rb'
 
-class Bot < Motivate
+class Bot
   def initialize
     token = '1167629539:AAGQm4Kj0hUclTkDEKo_ow4X4T3V0N1CljE'
 
