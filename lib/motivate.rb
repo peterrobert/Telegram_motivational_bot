@@ -1,4 +1,3 @@
-# rubocop:disable Style/ClassVars
 require 'telegram/bot'
 require 'net/http'
 require 'json'
@@ -24,5 +23,3 @@ class Motivate
     @values
   end
 end
-
-# rubocop: enable Style/ClassVars
