@@ -31,4 +31,32 @@
    @mawaitha_bot
 
    ``` 
-![Demo]("https://imgflip.com/gif/3wq8hp")
+## How to Test the Methods In the Classes
+
+ Install Rspec gem in your system. To do this:
+
+ Open Command Prompt or Terminal and run:
+
+  ```console
+  gem install Rspec
+  ```
+
+ Navigate into the spec folder and run the following at the console:
+
+   ```console
+   rspec telegram_bot_tests.rb
+   ```
+
+## Authors  ![Hireable](https://img.shields.io/badge/HIREABLE-YES-yellowgreen&?style=for-the-badge)
+
+👤 **Peter Robert**
+
+- Github: [@peterrobert](https://github.com/peterrobert)
+- Twitter: [@ptahwambui93](https://twitter.com/Ptahwambui93)
+- Linkedin: [Peter Robert Ndungu](https://www.linkedin.com/in/peter-rob-ndungu/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!. Feel free to check the [issues page](issues/).
+
+## Show your support
