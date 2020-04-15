@@ -15,8 +15,9 @@ Metrics/AbcSize:
 Metrics/ClassLength:
   Max: 150
 Metrics/BlockLength:
-  ExcludedMethods: ["describe"]
+  ExcludedMethods: ['describe']
   Max: 30
+
 
 Style/Documentation:
   Enabled: false
@@ -31,10 +32,10 @@ Style/DefWithParentheses:
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
 
-Layout/HashAlignment: false
+Layout/HashAlignment:
   EnforcedColonStyle: key
-Layout/ExtraSpacing: false
+Layout/ExtraSpacing:
   AllowForAlignment: false
-Layout/MultilineMethodCallIndentation: false
+Layout/MultilineMethodCallIndentation:
   Enabled: true
   EnforcedStyle: indented
