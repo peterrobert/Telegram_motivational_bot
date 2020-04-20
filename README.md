@@ -1,5 +1,5 @@
-# Telegram_motivation_bolt
-> Building a telegram motivational bolt that can be initialized on the command line(windows) / terminal(mac &amp; linux) where it sends    motivational messages to a specific user on his or her telegram account
+# Telegram_motivation_bot
+> Building a telegram motivational bot that can be initialized on the command line(windows) / terminal(mac &amp; linux) where it sends    motivational messages to a specific user on his or her telegram account
 
  > This is a capstone project for the ruby curriculum at microverse coding school.
 
