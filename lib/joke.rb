@@ -12,6 +12,7 @@ class Joke
   end
 
   def make_the_request
+    debugger
     url = 'https://api.yomomma.info'
 
     escaped_address = URI.escape(url)
